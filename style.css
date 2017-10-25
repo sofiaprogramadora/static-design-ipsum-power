@@ -1,0 +1,52 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+.grey{
+	background: #aaa;
+}
+
+.col-nav{
+	width: 15%;
+	height:100vh;
+	display: inline-block;
+}
+
+li{
+	list-style-type: none;
+}
+
+.center{
+	text-align: center;
+}
+
+.pad{
+	padding-left: 4%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.content{
+	margin-top: 40px;
+	display: inline-block;
+	box-sizing: border-box;
+	padding-left: 50px;
+	width: 85%;
+}
+
+.all div{
+	display: inline-block;
+	box-sizing: border-box;
+	float:  left;
+}
